@@ -2,6 +2,7 @@ import React, { Suspense, useRef, useState, useEffect } from 'react'
 import { Canvas, useFrame } from '@react-three/fiber'
 import { OrbitControls, useGLTF, ContactShadows } from '@react-three/drei'
 import CanvasLoader from '../Loader'
+import { m } from 'framer-motion'
 
 const Computers = () => {
   const computer = useGLTF('https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/macbook/model.gltf')
@@ -92,19 +93,36 @@ const Computers = () => {
         far={4}
       />
       
-      <mesh position={[0, -3, -5]} rotation={[-Math.PI / 2, 0, 0]}>
+      {/* <mesh position={[0, -3, -5]} rotation={[-Math.PI / 2, 0, 0]}>
         <planeGeometry args={[20, 20]} />
         <meshStandardMaterial 
           color="#1a1a2e"
           metalness={0.2}
           roughness={0.8}
         />
-      </mesh>
+      </mesh> */}
     </>
   )
 }
 
 const ComputersCanvas = () => {
+  const [isMobile, setIsMobile] = useState(false)
+  
+  useEffect(() => {
+    const mediaQuery = window.matchMedia('(max-width: 500px)')
+    setIsMobile(mediaQuery.matches)
+    
+    const handleMediaQueryChange = (event) => {
+      setIsMobile(event.matches)
+    }
+    
+    mediaQuery.addEventListener('change', handleMediaQueryChange)
+    
+    return () => { 
+      mediaQuery.removeEventListener('change', handleMediaQueryChange)
+    }
+  }, [])
+
   return (
     <Canvas 
       shadows
@@ -126,7 +144,7 @@ const ComputersCanvas = () => {
           enablePan={false}
           rotateSpeed={0.5}
         />
-        <Computers />
+        <Computers  />
       </Suspense>
     </Canvas>
   )
