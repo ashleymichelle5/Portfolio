@@ -195,6 +195,7 @@ const testimonials = [
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
+  
 ];
 
 const projects = [
@@ -261,6 +262,7 @@ const projects = [
     image: tripguide,
     source_code_link: "https://github.com/",
   },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
