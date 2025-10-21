@@ -1,3 +1,4 @@
+import { source } from "framer-motion/client";
 import {
   mobile,
   backend,
@@ -30,6 +31,11 @@ import {
   redux,
   carnicosdanisan,
   marycoral_img,
+  memorygame,
+  tech_insight,
+  pic1,
+  pic2,
+  pic3,
 } from "../assets";
 
 export const navLinks = [
@@ -191,27 +197,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I couldn't be happier. The site is clean, modern and perfectly reflects my brand. She was professional, responsive, and took the time to understand exactly what I needed.",
+    name: "Joseph Lee",
+    designation: "Realtor",
+    company: "Lee Brothers Real Estate Group",
+    image: pic1,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Ashley transformed my website and it looks amazing! The new design is sleek, modern, and so much better than before. I'm thrilled with how it turned out!",
+    name: "Santiago Guzman",
+    designation: "Marketing Director",
+    company: "Cárnicos Danisan",
+    image: pic2,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Ashley redesigned my jewelry website and it's absolutely beautiful. The elegant design and attention to detail were the perfect touch for showcasing my pieces. Highly recommend!",
+    name: "Sara Morales",
+    designation: "Owner",
+    company: "Mar y Coral",
+    image: pic3,
   },
   
 ];
@@ -220,56 +226,129 @@ const projects = [
   {
     name: "Real Estate",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A professional landing page showcasing real estate projects, portfolio work, and industry experience to attract potential clients.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "tailwindcss",
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "web3forms",
         color: "pink-text-gradient",
+      },
+      {
+        name: "toastify",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "framer-motion ",
+        color: "green-text-gradient",
       },
     ],
     image: realestate,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ashleymichelle5/Real-Estate",
   },
   {
     name: "Cárnicos Danisan",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A butcher company website featuring their product menu, mission, contact form for inquiries, and a gallery showcasing their quality meats.",
     tags: [
       {
-        name: "react",
+        name: "css",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "html",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "themifybuilder",
         color: "pink-text-gradient",
       },
     ],
     image: carnicosdanisan,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://www.carnicosdanisan.com",
   },
   {
     name: "Mar y Coral",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A jewelry e-commerce site where customers can browse products, place orders online, and connect directly via WhatsApp for personalized assistance.",
     tags: [
       {
-        name: "nextjs",
+        name: "themifybuilder",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "woocommerce",
+        color: "green-text-gradient",
+      },
+    ],
+    image: marycoral_img,
+    source_code_link: "https://marycoral.com.co",
+  },
+  {
+    name: "Tech Insight",   
+    description:
+      "An electronics review platform where users can create accounts, upload product photos, and share detailed reviews of their tech purchases.",
+    tags: [
+      {
+        name: "node.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongoDB",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "authMiddleware",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: tech_insight,
+    source_code_link: "https://github.com/ashleymichelle5/review-app",
+
+  },
+  {
+    name: "Budget Buddy",   
+    description:
+      "A comprehensive budget management app designed to help users take control of their finances. Track daily expenses, monitor spending habits, create custom budgets, and set achievable saving goals.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "django",
+        color: "green-text-gradient",
+      },
+      {
+        name: "sql",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tech_insight,
+    source_code_link: "https://github.com/ashleymichelle5/BudgetBuddy",
+
+  },
+  {
+    name: "Inside Out",
+    description:
+      "A memory game application that challenges kids to find matching pairs of cards, enhancing cognitive skills and providing entertainment.",
+      tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "html",
         color: "green-text-gradient",
       },
       {
@@ -277,8 +356,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: marycoral_img,
-    source_code_link: "https://github.com/",
+    image: memorygame,
+    source_code_link: "https://github.com/ashleymichelle5/memory-game",
   },
   
 ];

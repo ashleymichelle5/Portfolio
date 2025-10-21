@@ -36,7 +36,11 @@ import carnicos from "./company/carnicos.png";
 import realestate from "./realestate.png";
 import carnicosdanisan from "./carnicosdanisan.png";
 import marycoral_img from "./marycoral_img.png";
-
+import memorygame from "./memorygame.png";
+import tech_insight from "./tech_insight.png";
+import pic1 from "./pic1.jpeg";
+import pic2 from "./pic2.jpeg";
+import pic3 from "./pic3.jpeg";
 
 export {
   logo,
@@ -74,4 +78,9 @@ export {
   realestate,
   carnicosdanisan,
   marycoral_img,
+  memorygame,
+  tech_insight,
+  pic1,
+  pic2,
+  pic3,
 };
