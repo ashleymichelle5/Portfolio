@@ -20,6 +20,7 @@ import {
   claude,
   mysql,
   postgresql,
+  ollama,
   heroku,
   copilot,
   general_assembly,
@@ -152,7 +153,10 @@ const technologies = [
   {
     name: "framer",
     icon: framer,
-  }
+  },
+  {    name: "ollama",
+       icon: ollama,
+  },
 ];
 
 const experiences = [

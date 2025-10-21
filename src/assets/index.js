@@ -27,6 +27,7 @@ import heroku from "./tech/heroku.svg";
 import mysql from "./tech/mysql.svg";
 import redux from "./tech/redux.png";
 import framer from "./tech/framer.svg";
+import ollama from "./tech/ollama.svg";
 
 import general_assembly from "./company/general_assembly.png";
 import marycoral from "./company/marycoral.png";
@@ -67,6 +68,7 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  ollama,
   python,
   tailwind,
   typescript,
