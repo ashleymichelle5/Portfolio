@@ -9,6 +9,7 @@ import close from "./close.svg";
 
 import css from "./tech/css.png";
 import wordpress from "./tech/wordpress.svg";
+import claude from "./tech/claude.svg";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -21,15 +22,21 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import copilot from "./tech/copilot.svg";
+import postgresql from "./tech/postgresql.svg";
+import heroku from "./tech/heroku.svg";
+import mysql from "./tech/mysql.svg";
+import redux from "./tech/redux.png";
+import framer from "./tech/framer.svg";
 
 import general_assembly from "./company/general_assembly.png";
 import marycoral from "./company/marycoral.png";
 import real_estate from "./company/real_estate.png";
 import carnicos from "./company/carnicos.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import realestate from "./realestate.png";
+import carnicosdanisan from "./carnicosdanisan.png";
+import marycoral_img from "./marycoral_img.png";
+
 
 export {
   logo,
@@ -41,8 +48,14 @@ export {
   menu,
   close,
   css,
+  redux,
   wordpress,
+  framer,
+  claude,
+  mysql,
+  heroku,
   copilot,
+  postgresql,
   figma,
   git,
   html,
@@ -58,7 +71,7 @@ export {
   marycoral,
   real_estate,
   carnicos,
-  carrent,
-  jobit,
-  tripguide,
+  realestate,
+  carnicosdanisan,
+  marycoral_img,
 };
