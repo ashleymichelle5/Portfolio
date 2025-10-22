@@ -70,7 +70,7 @@ const Contact = () => {
 
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Message</span>
-            <textarea rows='7' name='message' value={form.message} onChange={handleChange} placeholder="What do you want to say?" className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium' />
+            <textarea rows='7' name='message' value={form.message} onChange={handleChange} placeholder="What can I help you with?" className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium' />
           </label>
           <button type='submit' className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'>
             {loading ? 'Sending...' : 'Send'}

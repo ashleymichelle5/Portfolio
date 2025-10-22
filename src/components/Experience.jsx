@@ -6,7 +6,8 @@ import { styles } from '../style'
 import { experiences } from '../constants'
 import { SectionWrapper } from '../hoc'
 import { textVariant } from '../utils/motion'
-import { li } from 'framer-motion/client'
+import { li } from 'framer-motion/client'   
+import { github } from '../assets'
 
 
 const ExperienceCard = ({ experience }) => {
@@ -20,6 +21,9 @@ const ExperienceCard = ({ experience }) => {
       <div>
         <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
         <p className='text-seconday text-[16px] font-semibold style={{ margin: 0 }}'>{experience.company_name}</p>
+            <div onClick={() => window.open(experience.source_code_link, '_blank')} className='black-gradient w-12 h-12 rounded-full flex justify-center items-center cursor-pointer absolute top-0 right-0 mt-3 mr-3'>
+              <img src={github} alt='github' className='w-1/2 h-1/2 object-contain'/>
+            </div>
       </div>
 
       {/* <ul className='mt-5 list-disc ml-5 space-y-2'>

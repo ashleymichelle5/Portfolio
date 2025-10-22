@@ -166,6 +166,7 @@ const experiences = [
     icon: real_estate,
     iconBg: "#ffffffff",
     date: "Oct 2025",
+    source_code_link: "https://github.com/ashleymichelle5/Real-Estate"
   },
   {
     title: "Cárnicos Danisan Website",
@@ -173,6 +174,7 @@ const experiences = [
     icon: carnicos,
     iconBg: "#000000ff",
     date: "Jul 2025",
+    source_code_link: "https://www.carnicosdanisan.com"
   },
   {
     title: "Mar y Coral Website",
@@ -180,6 +182,7 @@ const experiences = [
     icon: marycoral,
     iconBg: "#dab6adff",
     date: "Jul 2025",
+    source_code_link: "https://marycoral.com.co"
   },
   {
     title: "Budget Buddy App",
@@ -187,6 +190,7 @@ const experiences = [
     icon: general_assembly,
     iconBg: "#ffffffff",
     date: "Feb 2025",
+    source_code_link: "https://github.com/ashleymichelle5/BudgetBuddy",
   },
   {
     title: "Tech Insight App",
@@ -194,6 +198,15 @@ const experiences = [
     icon: general_assembly,
     iconBg: "#ffffffff",
     date: "Nov 2024",
+    source_code_link: "https://github.com/ashleymichelle5/review-app",
+  },
+  {
+    title: "Inside Out Memory Game",
+    company_name: "General Assembly",
+    icon: general_assembly,
+    iconBg: "#ffffffff",
+    date: "Sept 2024",
+    source_code_link: "https://github.com/ashleymichelle5/memory-game",
   },
   
 ];
@@ -262,17 +275,14 @@ const projects = [
       "A butcher company website featuring their product menu, mission, contact form for inquiries, and a gallery showcasing their quality meats.",
     tags: [
       {
-        name: "css",
+        name: "wordpress",
         color: "blue-text-gradient",
       },
       {
-        name: "html",
+        name: "themifybuilder",
         color: "green-text-gradient",
       },
-      {
-        name: "themifybuilder",
-        color: "pink-text-gradient",
-      },
+      
     ],
     image: carnicosdanisan,
     source_code_link: "https://www.carnicosdanisan.com",
@@ -283,7 +293,7 @@ const projects = [
       "A jewelry e-commerce site where customers can browse products, place orders online, and connect directly via WhatsApp for personalized assistance.",
     tags: [
       {
-        name: "themifybuilder",
+        name: "wordpress",
         color: "blue-text-gradient",
       },
       {
@@ -361,7 +371,7 @@ const projects = [
       },
     ],
     image: memorygame,
-    source_code_link: "https://github.com/ashleymichelle5/memory-game",
+    source_code_link: "https://ashleymichelle5.github.io/memory-game/",
   },
   
 ];
