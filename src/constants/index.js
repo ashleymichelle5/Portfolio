@@ -174,7 +174,7 @@ const experiences = [
     icon: carnicos,
     iconBg: "#000000ff",
     date: "Jul 2025",
-    source_code_link: "https://www.carnicosdanisan.com"
+    source_code_link: "https://github.com/ashleymichelle5/carnicos-danisan"
   },
   {
     title: "Mar y Coral Website",
@@ -182,7 +182,7 @@ const experiences = [
     icon: marycoral,
     iconBg: "#dab6adff",
     date: "Jul 2025",
-    source_code_link: "https://marycoral.com.co"
+    source_code_link: "https://github.com/ashleymichelle5/marycoral"
   },
   {
     title: "Budget Buddy App",
@@ -201,7 +201,7 @@ const experiences = [
     source_code_link: "https://github.com/ashleymichelle5/review-app",
   },
   {
-    title: "Inside Out Memory Game",
+    title: "Inside Out - Memory Game",
     company_name: "General Assembly",
     icon: general_assembly,
     iconBg: "#ffffffff",
