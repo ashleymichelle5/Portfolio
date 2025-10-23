@@ -191,7 +191,7 @@ portfolio/
 
 ---
 
-**Your Name**
+**Ashley Sanchez**
 
 - 🌐 Portfolio: [yourwebsite.com](https://yourwebsite.com)
 - 💼 LinkedIn: [Your Name](https://linkedin.com/in/your-profile)
