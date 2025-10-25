@@ -26,8 +26,7 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
       <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        I'm a front-end developer passionate about creating clean, user-friendly web experiences. As a quick learner and problem solver, I enjoy tackling challenges and finding efficient solutions.
-I'm skilled in HTML, CSS, JavaScript, and React. I'm also expanding my knowledge in AI technologies. I'm always eager to learn and stay current with the latest web technologies.
+        Front-End Developer with a strong passion for crafting clean, intuitive, and responsive web experiences. Proficient in HTML, CSS, JavaScript, and React, with a focus on building dynamic, user-centric interfaces. Known for being a quick learner and a strategic problem solver, I thrive in tackling complex challenges and delivering efficient solutions. Currently expanding my expertise in AI technologies, and committed to continuous learning to stay ahead of emerging web technologies and industry trends.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
