@@ -12,7 +12,7 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Framer Motion](https://img.shields.io/badge/Framer_Motion-black?style=for-the-badge&logo=framer&logoColor=blue)](https://www.framer.com/motion/)
 
-[🌐 Live Demo](www.ashleymsanchez.com) • [📂 View Code](https://github.com/ashleymichelle5/Portfolio) • [📧 Contact Me](mailto:ashleymsanchez05@gmail.com)
+[🌐 Live Demo](https://www.ashleymsanchez.com) • [📂 View Code](https://github.com/ashleymichelle5/Portfolio) • [📧 Contact Me](mailto:ashleymsanchez05@gmail.com)
 
 </div>
 
@@ -193,7 +193,7 @@ portfolio/
 
 **Ashley Sanchez**
 
-- 🌐 Portfolio: [ashleymsanchez.com](www.ashleymsanchez.com)
+- 🌐 Portfolio: [ashleymsanchez.com](https://www.ashleymsanchez.com)
 - 💼 LinkedIn: [Ashley Sanchez](https://www.linkedin.com/in/ashley-sanchez-029331390/)
 - 🐙 GitHub: [@ashleymichelle5](https://github.com/ashleymichelle5)
 - 📧 Email: ashleymsanchez05@gmail.com
