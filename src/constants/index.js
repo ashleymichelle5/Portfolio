@@ -37,6 +37,7 @@ import {
   pic1,
   pic2,
   pic3,
+  budgetbuddy,
 } from "../assets";
 
 export const navLinks = [

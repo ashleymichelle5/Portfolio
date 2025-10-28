@@ -42,6 +42,7 @@ import tech_insight from "./tech_insight.png";
 import pic1 from "./pic1.jpeg";
 import pic2 from "./pic2.jpeg";
 import pic3 from "./pic3.jpeg";
+import budgetbuddy from "./budgetbuddy.png";
 
 export {
   logo,
@@ -85,4 +86,5 @@ export {
   pic1,
   pic2,
   pic3,
+  budgetbuddy,
 };
