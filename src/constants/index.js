@@ -267,7 +267,7 @@ const projects = [
       },
     ],
     image: realestate,
-    source_code_link: "https://github.com/ashleymichelle5/Real-Estate",
+    source_code_link: "https://www.josephleerealtor.com",
   },
   {
     name: "Cárnicos Danisan",
@@ -327,7 +327,7 @@ const projects = [
       },
     ],
     image: tech_insight,
-    source_code_link: "https://github.com/ashleymichelle5/review-app",
+    source_code_link: "https://review-app-go0h.onrender.com",
 
   },
   {
@@ -348,7 +348,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tech_insight,
+    image: budgetbuddy,
     source_code_link: "https://github.com/ashleymichelle5/BudgetBuddy",
 
   },
