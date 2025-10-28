@@ -12,7 +12,7 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Framer Motion](https://img.shields.io/badge/Framer_Motion-black?style=for-the-badge&logo=framer&logoColor=blue)](https://www.framer.com/motion/)
 
-[🌐 Live Demo](https://your-portfolio-url.com) • [📂 View Code](https://github.com/ashleymichelle5/Portfolio) • [📧 Contact Me](mailto:ashleymsanchez05@gmail.com)
+[🌐 Live Demo](www.ashleymsanchez.com) • [📂 View Code](https://github.com/ashleymichelle5/Portfolio) • [📧 Contact Me](mailto:ashleymsanchez05@gmail.com)
 
 </div>
 
