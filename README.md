@@ -193,8 +193,8 @@ portfolio/
 
 **Ashley Sanchez**
 
-- 🌐 Portfolio: [yourwebsite.com](https://yourwebsite.com)
-- 💼 LinkedIn: [Your Name](https://linkedin.com/in/your-profile)
+- 🌐 Portfolio: [ashleymsanchez.com](www.ashleymsanchez.com)
+- 💼 LinkedIn: [Ashley Sanchez](https://www.linkedin.com/in/ashley-sanchez-029331390/)
 - 🐙 GitHub: [@ashleymichelle5](https://github.com/ashleymichelle5)
 - 📧 Email: ashleymsanchez05@gmail.com
 
