@@ -26,11 +26,6 @@ html, body {
   overflow-x: hidden;
 }
 
-/* Si tu navbar es fixed o sticky, puede que también necesites esto */
-.main-content {
-  position: relative;
-  width: 100%;
-}
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
