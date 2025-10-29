@@ -72,7 +72,7 @@ import { fadeIn, textVariant } from '../utils/motion'
 const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
   return (
     <motion.div 
-      variants={fadeIn('up', 'spring', index * 0.5, 0.75)}
+      variants={fadeIn('up', 'spring', index * 0.15, 0.5)}
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, amount: 0.1 }} // 👈 Cambiado de 0.25 a 0.1
