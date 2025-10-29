@@ -12,7 +12,25 @@
   scroll-behavior: smooth;
   color-scheme: dark;
 }
+/* 👇 AGREGA ESTO AQUÍ 👇 */
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; /* Evita scroll horizontal */
+  overflow-y: auto;   /* Permite scroll vertical */
+}
 
+#root {
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Si tu navbar es fixed o sticky, puede que también necesites esto */
+.main-content {
+  position: relative;
+  width: 100%;
+}
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
