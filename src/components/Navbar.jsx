@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+mport React, { useState, useEffect } from 'react'
 
 import menu_icon from '../assets/menu_icon.svg'
 import cross_icon from '../assets/cross_icon.svg'
@@ -6,11 +6,16 @@ import cross_icon from '../assets/cross_icon.svg'
 const Navbar = () => {
     const[showMobileMenu, setShowMobileMenu] = useState(false);
     
+    // Debug: Ver el estado actual
+    console.log('Mobile menu state:', showMobileMenu);
+    
 useEffect(() => {
     if(showMobileMenu) {
         document.body.style.overflow = 'hidden';
+        console.log('menu abierto, scroll oculto');
     } else {
         document.body.style.overflow = 'auto';
+        console.log('Menu cerrado, scroll habilitado');
     }
     return () => {
         document.body.style.overflow = 'auto';
@@ -59,18 +64,34 @@ useEffect(() => {
           
           {/* Botón del Menú Móvil */}
           <img 
-            onClick={()=>setShowMobileMenu(true)} 
+            onClick={()=>{
+              console.log('Menu icon clicked, current state:', showMobileMenu);
+              setShowMobileMenu(true);
+            }} 
             src={menu_icon} 
             className='md:hidden w-7 cursor-pointer hover:opacity-70 transition-opacity' 
-            alt="" 
+            alt="Menu" 
           />
         </div>
       </div>
 
       {/* Panel del Menú Móvil */}
-      <div className={`md:hidden ${showMobileMenu ? 'fixed w-full h-full' :'h-0 w-0'} right-0 top-0 bottom-0 overflow-hidden bg-gray-900 transition-all duration-300 z-50`}>
+      <div 
+        className={showMobileMenu ? 
+          'fixed inset-0 bg-gray-900 z-[9999] md:hidden' : 
+          'hidden'
+        }
+      >
         <div className='flex justify-end p-6 cursor-pointer'>
-          <img onClick={()=>setShowMobileMenu(false)} src={cross_icon} className='w-6 text-white hover:opacity-70 transition-opacity' alt="" />
+          <img 
+            onClick={()=>{
+              console.log('Close icon clicked');
+              setShowMobileMenu(false);
+            }} 
+            src={cross_icon} 
+            className='w-6 text-white hover:opacity-70 transition-opacity' 
+            alt="Close" 
+          />
         </div>
         <ul className='flex flex-col items-center gap-6 mt-5 px-5 text-lg font-medium'>
           <a onClick={()=>setShowMobileMenu(false)} href="#Header" className='px-4 py-2 rounded-full inline-block text-gray-300 hover:text-white transition-colors duration-300'>Home</a>
