@@ -1,5 +1,7 @@
-import React, { useEffect, useState } from 'react'
-import { logo, menu, close } from '../assets'
+import React, { useState, useEffect } from 'react'
+
+import menu_icon from '../assets/menu_icon.svg'
+import cross_icon from '../assets/cross_icon.svg'
 
 const Navbar = () => {
     const[showMobileMenu, setShowMobileMenu] = useState(false);
