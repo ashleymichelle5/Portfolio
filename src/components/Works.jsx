@@ -6,6 +6,7 @@ import { github } from '../assets'
 import { SectionWrapper } from '../hoc'
 import { projects } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
+import { Gyroscope } from 'three/examples/jsm/Addons.js'
 
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
@@ -59,3 +60,4 @@ const Works = () => {
 }
 
 export default SectionWrapper(Works, 'works')
+
