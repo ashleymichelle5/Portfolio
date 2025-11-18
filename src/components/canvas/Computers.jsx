@@ -5,7 +5,7 @@ import CanvasLoader from '../Loader'
 import { m } from 'framer-motion'
 
 const Computers = () => {
-  const computer = useGLTF('https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/macbook/model.gltf')
+  const computer = useGLTF('/model.gltf')
   const meshRef = useRef()
   const [isMobile, setIsMobile] = useState(false)
   
